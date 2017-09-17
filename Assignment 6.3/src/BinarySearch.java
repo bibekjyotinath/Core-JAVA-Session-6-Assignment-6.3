@@ -1,5 +1,5 @@
 import java.util.Scanner;  //importing Scanner Class for inserting values from user
-import java.lang.Math;
+import java.lang.Math;		//importing package java.lang to use math class
 class BinarySearchAlgo{  //class to create a method to find the element using binary search
 	int middle=0;  //initializing variable in integer data type
 	public void Binary(int arr[],int first, int last, int search) //method created to find the element using binary search
@@ -15,7 +15,7 @@ class BinarySearchAlgo{  //class to create a method to find the element using bi
 			else if(arr[middle] == search)  //check if middle element is equal to the searched element
 			{
 				System.out.println(search+" Found at " +(middle+1));  //prints if the element is found in the array
-				break;
+				break;			//break is called so that it can come out of the condition
 			}
 			else
 			{
